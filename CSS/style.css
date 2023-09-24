@@ -1,0 +1,145 @@
+body {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.header-fixed {
+	top: 0;
+	position: fixed;
+	width: 89%;
+	z-index: 100;
+	background-color: white;
+}
+
+.header-list {
+	height:50px;
+	display: grid;
+	grid-template-columns: 4fr 0.1fr 0.6fr;
+	font-family: sans-serif;
+}
+
+.footer {
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 89%;
+	z-index: 1;
+	background-color: white;
+	height: 40px;
+	font-size: 13.5px;
+}
+
+.header-add {
+	height:50px;
+	display: grid;
+	grid-template-columns: 4fr 0.6fr 0.5fr;
+	font-family: sans-serif;
+}
+
+.add-button {
+	font-size: 15px;
+}
+
+.add-button-container {
+	padding-top: 20px;
+}
+
+.mass-delete-button {
+	font-size:15px;
+}
+
+.mass-delete-button-container {
+	text-align: right;
+	padding-top: 20px;
+}
+
+.product-list-container {
+	position:relative;
+	top: 65px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding-bottom: 50px;
+}
+
+.product-card {
+  margin: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+	padding: 20px;
+}
+
+.product-description {
+	margin: 0;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+.delete-checkbox {
+	text-align: left;
+}
+
+.product-add-container {
+	padding-top: 65px;
+}
+
+.product-add-first {
+	font-family: sans-serif;
+	font-size: 15px;
+	display:grid;
+	grid-template-columns: 0.8fr 1fr 9fr;
+	grid-template-rows: 30px 30px 30px 30px;
+	row-gap: 15px;
+}
+
+.product-add-second {
+	padding-top: 60px;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.product-attribute {
+	font-weight: bold;
+	font-style: italic;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+input {
+	border: 1px solid #ccc;
+	border-radius: 0.4em;
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+select {
+	border: 1px solid #ccc;
+	border-radius: 0.4em;
+}
+
+input:hover {
+	box-shadow: 1px 1px 1px 1px lightblue;
+}
+
+select:hover {
+	box-shadow: 1px 1px 1px 1px lightblue;
+}
+
+input:focus {
+		outline-style: dotted;
+}
+
+option {
+	font-size: 15px;
+}
+
+.msg-error {
+	color: red;
+	font-size: 14px;
+}
+
+button {
+	height: 30px;
+    width: 120px;
+}

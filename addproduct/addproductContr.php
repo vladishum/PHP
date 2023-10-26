@@ -7,15 +7,15 @@ include_once "../Classes/Book.php";
 if(isset($_POST["save"]))
 {
 
-        $sku = $_POST["sku"];
-        $name = $_POST["name"];
-        $price = $_POST["price"];
-        $productType = $_POST["productType"];
-        $size = $_POST["size"];
-        $height = $_POST["height"];
-        $width = $_POST["width"];
-        $length = $_POST["length"];
-        $weight = $_POST["weight"];
+        $sku = trim($_POST["sku"]);
+        $name = trim($_POST["name"]);
+        $price = trim($_POST["price"]);
+        $productType = trim($_POST["productType"]);
+        $size = trim($_POST["size"]);
+        $height = trim($_POST["height"]);
+        $width = trim($_POST["width"]);
+        $length = trim($_POST["length"]);
+        $weight = trim($_POST["weight"]);
 
 /*Validation section START*/
         if(empty($sku)) {
